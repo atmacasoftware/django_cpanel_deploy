@@ -1,5 +1,6 @@
 -> Django MySQL Configuration in settings.py;
 
+```
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -11,6 +12,8 @@ DATABASES = {
     }
 
 }
+
+````
 
 -> Django static and media configuration in setting.py;
 STATIC_URL = '/static/'
